@@ -51,3 +51,22 @@ if (temperature < -40 || temperature > 40) {
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
+
+//Conditionals - whichSchool
+
+let yourAge = 22
+
+function whichSchool(yourAge){
+  if (yourAge < 13){
+    return 'Elementary School';
+  } 
+  else if (yourAge >=13 && yourAge <=18) {
+      return 'Secondary School';
+  } 
+  else{
+      return 'Lighthouse Labs';
+  }  
+}
+  console.log(whichSchool(yourAge));{
+    
+  }
